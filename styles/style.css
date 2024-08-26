@@ -1,0 +1,248 @@
+/* General Body Styling */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0;
+}
+
+header h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.search-form {
+    margin-top: 10px;
+}
+
+.search-form input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.search-form button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ffc107;
+    color: white;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #e0a800;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Product List Styles */
+.list-group {
+    padding: 0;
+    list-style: none;
+}
+
+.list-group-item {
+    background-color: white;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 15px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+}
+
+
+/* General Button Styling */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 6px;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Product Page Button Styling (Add to Cart) */
+.btn-add-to-cart {
+    background-color: #ff5722; /* Orange color */
+    padding: 12px 24px;
+    font-size: 15px;
+}
+
+.btn-add-to-cart:hover {
+    background-color: #e64a19;
+    transform: translateY(-2px);
+}
+
+/* Cart Page Button Styling */
+.btn-cart {
+    background-color: #17a2b8; /* Teal color */
+    padding: 8px 16px;
+    font-size: 14px;
+}
+
+.btn-cart:hover {
+    background-color: #138496;
+    transform: translateY(-2px);
+}
+
+/* Checkout Page Button Styling */
+.btn-checkout {
+    background-color: #28a745; /* Green color */
+    padding: 14px 30px; /* Wider and bigger */
+    font-size: 18px; /* Larger font size */
+    margin: 20px auto; /* Centered */
+    display: block; /* Full-width button */
+}
+
+.btn-checkout:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}
+
+/* Delete Button Styling */
+.btn-delete {
+    background-color: #dc3545; /* Red color */
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.btn-delete:hover {
+    background-color: #c82333;
+    transform: translateY(-2px);
+}
+
+
+/* Login Page Button Styling */
+.btn-login {
+    background-color: #ffc107; /* Yellow color */
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #212529; /* Dark text color for contrast */
+}
+
+.btn-login:hover {
+    background-color: #e0a800;
+    transform: translateY(-2px);
+}
+
+/* Checkout Button Styling */
+.btn-primary {
+    display: block;
+    margin: 20px auto;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+
+/* Continue Shopping Button Styling (General) */
+.btn-continue {
+    background-color: #007bff; /* Blue color */
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.btn-continue:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Styles for 'No, Logout' Button */
+.btn-danger {
+    background-color: #dc3545; /* Red color for danger */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px; /* Adjust padding for size */
+    font-size: 16px; /* Font size */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.btn-danger:hover {
+    background-color: #c82333; /* Darker red for hover effect */
+}
+
